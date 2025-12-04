@@ -1,0 +1,160 @@
+{
+  "title": "AI-Enhanced Hyperspectral Algorithms for Haze & Carbon Monitoring in Malaysia",
+  "centralTopic": "AI-Enhanced Environmental Monitoring",
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "AI/ML Integration",
+      "color": "#8b5cf6",
+      "shape": "rectangle",
+      "notes": "CNN accuracy 92% for PM2.5; R²=0.85-0.88 for biomass"
+    },
+    {
+      "id": "n2",
+      "label": "Hyperspectral Sensors",
+      "color": "#2563eb",
+      "shape": "rectangle",
+      "notes": "Real-time spectral data for haze/aerosol detection"
+    },
+    {
+      "id": "n3",
+      "label": "LIDAR Systems",
+      "color": "#2563eb",
+      "shape": "rectangle",
+      "notes": "3D point clouds for biomass/carbon estimation"
+    },
+    {
+      "id": "n4",
+      "label": "Drone Platforms",
+      "color": "#059669",
+      "shape": "ellipse",
+      "notes": "UAV deployment for flexible monitoring"
+    },
+    {
+      "id": "n5",
+      "label": "Haze Profiling",
+      "color": "#dc2626",
+      "shape": "rounded",
+      "notes": "PM2.5/aerosol detection <1min processing"
+    },
+    {
+      "id": "n6",
+      "label": "Carbon Assessment",
+      "color": "#dc2626",
+      "shape": "rounded",
+      "notes": "Biomass and carbon stock estimation"
+    },
+    {
+      "id": "n7",
+      "label": "Malaysian Context",
+      "color": "#ea580c",
+      "shape": "ellipse",
+      "notes": "35% of studies; peatland focus"
+    },
+    {
+      "id": "n8",
+      "label": "Real-time Processing",
+      "color": "#8b5cf6",
+      "shape": "rectangle",
+      "notes": "Processing time <1min for analysis"
+    },
+    {
+      "id": "n9",
+      "label": "Implementation Challenges",
+      "color": "#ea580c",
+      "shape": "rounded",
+      "notes": "Humidity bias, compute limitations"
+    }
+  ],
+  "links": [
+    {
+      "id": "l1",
+      "from": "n1",
+      "to": "n2",
+      "label": "enhances accuracy of",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l2",
+      "from": "n1",
+      "to": "n3",
+      "label": "improves precision of",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l3",
+      "from": "n4",
+      "to": "n2",
+      "label": "carries",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l4",
+      "from": "n4",
+      "to": "n3",
+      "label": "mounts",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l5",
+      "from": "n2",
+      "to": "n5",
+      "label": "enables",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l6",
+      "from": "n3",
+      "to": "n6",
+      "label": "measures",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l7",
+      "from": "n7",
+      "to": "n5",
+      "label": "requires adaptation for",
+      "direction": "forward",
+      "style": "dashed"
+    },
+    {
+      "id": "l8",
+      "from": "n7",
+      "to": "n6",
+      "label": "influences",
+      "direction": "forward",
+      "style": "dashed"
+    },
+    {
+      "id": "l9",
+      "from": "n8",
+      "to": "n5",
+      "label": "enables",
+      "direction": "forward",
+      "style": "solid"
+    },
+    {
+      "id": "l10",
+      "from": "n9",
+      "to": "n8",
+      "label": "affects",
+      "direction": "forward",
+      "style": "dotted"
+    },
+    {
+      "id": "l11",
+      "from": "n9",
+      "to": "n7",
+      "label": "specific to",
+      "direction": "bidirectional",
+      "style": "dashed"
+    }
+  ],
+  "layoutHint": "vertical"
+}
